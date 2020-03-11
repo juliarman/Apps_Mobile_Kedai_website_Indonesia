@@ -1,0 +1,158 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/editText0"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:hint="Nama"
+            android:background="@drawable/ed_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <requestFocus />
+        </EditText>
+
+
+    <EditText
+        android:layout_below="@id/editText0"
+        android:id="@+id/editText1"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:hint="Email"
+        android:background="@drawable/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+
+
+    <EditText
+        android:layout_below="@+id/editText1"
+        android:id="@+id/editText2"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:hint="Password"
+        android:background="@drawable/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+        <EditText
+            android:layout_below="@id/editText2"
+            android:id="@+id/nomorwhatsapp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:hint="No HP / Whatsapp"
+            android:background="@drawable/ed_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+
+        <EditText
+            android:layout_below="@id/nomorwhatsapp"
+            android:id="@+id/jenispaketnya"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:hint="Jenis Paket"
+            android:background="@drawable/ed_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_below="@id/jenispaketnya"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:text=""
+        android:background="@drawable/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <EditText
+        android:layout_below="@id/editText4"
+        android:id="@+id/editText5"
+        android:inputType="text"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:hint="Isi Pesanan"
+        android:background="@drawable/ed_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+        <Spinner
+
+
+
+
+            style="?attr/spinnerDropDownItemStyle"
+            android:spinnerMode="dropdown"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            android:layout_below="@id/editText5"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:foreground="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="16dp"
+            android:id="@+id/kembali"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_proses2"
+            android:text="KEMBALI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:foreground="?attr/selectableItemBackground"
+            android:id="@+id/button1"
+            android:clickable="true"
+            android:layout_toRightOf="@+id/kembali"
+            android:padding="10dp"
+            android:layout_margin="16dp"
+            android:textColor="#fff"
+            android:background="@drawable/btn_proses"
+            android:text="PROSES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

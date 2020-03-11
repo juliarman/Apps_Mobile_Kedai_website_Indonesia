@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HubungiKami">
+
+
+    <LinearLayout
+        android:padding="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:textSize="40dp"
+            android:layout_margin="10dp"
+            android:text="HUBUNGI KAMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/adminsupport"
+            android:textColor="#fff"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/btn_adminsupport"
+            android:text="Admin Support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/layanancurhat"
+            android:textColor="#fff"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/btn_layanancurhat"
+            android:text="Layanan Curhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/technicalsupport"
+            android:textColor="#fff"
+            android:layout_margin="7dp"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:background="@drawable/btn_technicalsupport"
+            android:text="Technical Support"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

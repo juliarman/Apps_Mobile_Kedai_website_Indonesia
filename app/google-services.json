@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "440202828944",
+    "firebase_url": "https://kedai-website-372e2.firebaseio.com",
+    "project_id": "kedai-website-372e2",
+    "storage_bucket": "kedai-website-372e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440202828944:android:654c238859ad01299e4c15",
+        "android_client_info": {
+          "package_name": "com.juliarmanumar.kedaiwebsite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440202828944-0mikd7a1es54v41blcv68f1mfbirrsla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.juliarmanumar.kedaiwebsite",
+            "certificate_hash": "fe9c7b36f4dd276697bd39c4a49008e738dca7ce"
+          }
+        },
+        {
+          "client_id": "440202828944-j1bh5m9np87dfqrac946di98ta6ljkn0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjA3-C2ucteX0fhXd6IxMg0gQ_wsbOUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440202828944-j1bh5m9np87dfqrac946di98ta6ljkn0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

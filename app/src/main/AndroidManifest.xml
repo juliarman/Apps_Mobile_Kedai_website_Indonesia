@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.juliarmanumar.kedaiwebsite">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ListPaketWebOtomotif"></activity>
+        <activity android:name=".PaketSEOIklan" />
+        <activity android:name=".PaketDesain" />
+        <activity android:name=".HubungiKami" />
+        <activity android:name=".Home" />
+        <activity android:name=".GmailKirim.KirimActivity" />
+        <activity android:name=".ListPaketWebsite.List_Paket_Website" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".KategoriWebsite" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Splash_KedaiWebsite"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

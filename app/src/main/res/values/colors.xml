@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#fff</color>
+    <color name="colorAccent">#17345A</color>
+    <color name="btn_proses">#ff3939</color>
+    <color name="btnkembali">#17345A</color>
+
+    <color name="adminsupport">#ce007b</color>
+    <color name="layanancurhat">#7100e2</color>
+    <color name="technicalsupport">#0066bf</color>
+</resources>

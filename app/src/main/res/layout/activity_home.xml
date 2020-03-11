@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="false"
+    android:id="@+id/relativid"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:id="@+id/lt_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:background="@drawable/backroundheader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:id="@+id/welcome"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:text="Selamat Datang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@id/welcome"
+                android:textSize="20dp"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:text="Di dashboard aplikasi kedai website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+    <GridLayout
+        android:layout_marginTop="-40dp"
+        android:rowCount="2"
+        android:columnCount="2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paketwebsite"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_height="150dp"
+            android:layout_width="130dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            >
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/websitee"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="Paket Website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paketdesain"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_height="150dp"
+            android:layout_width="130dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:focusable="true">
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/desainn"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="Paket Design"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/paketseoiklann"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_height="150dp"
+            android:layout_width="130dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:focusable="true">
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:background="@drawable/seoiklann"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"/>
+
+                <TextView
+                    android:gravity="center"
+                    android:text="Paket SEO &amp; Iklan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hubungikami"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_height="150dp"
+            android:layout_width="130dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp"
+            android:layout_margin="12dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:focusable="true">
+            <LinearLayout
+                android:padding="16dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="102dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/tentangg" />
+
+                <TextView
+                    android:gravity="center"
+                    android:text="Hubungi Kami"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </GridLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:textSize="10dp"
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:text="Copyright © 2020 Kedai Website Indonesia"
+            android:background="@drawable/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+            <!--
+       <com.ashokvarma.bottomnavigation.BottomNavigationBar
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/bottombarr"
+
+           />
+
+           -->
+
+       </LinearLayout>
+
+
+
+</RelativeLayout>
